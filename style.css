@@ -1,5 +1,6 @@
 .reserve-card {
-    width:30px !important;
+    width:380px;
+    position:absolute;
 }
 .schedule_card {
     background-color: transparent;
@@ -9,7 +10,7 @@
     cursor: pointer;
 }
 .reserve-card-bgcolor {
-    background-color: transparent !important;
+    background-color: transparent;
 }
 /* .dummy-card-bgcolor {
     background-color: #000000 !important;
@@ -23,6 +24,7 @@
 .schedule_grid .schedule_header {
     top: 50px;
     display: grid;
+    grid-template-columns: 380px 380px 380px 380px;
     grid-template-rows: 50px 1fr;
     width: 1520px !important;
     margin-left: 80px;
