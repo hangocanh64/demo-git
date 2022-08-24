@@ -1,6 +1,5 @@
 .reserve-card {
-    width:380px !important;
-    position:absolute !important;
+    width:30px !important;
 }
 .schedule_card {
     background-color: transparent;
@@ -24,7 +23,6 @@
 .schedule_grid .schedule_header {
     top: 50px;
     display: grid;
-    grid-template-columns: 380px 380px 380px 380px !important;
     grid-template-rows: 50px 1fr;
     width: 1520px !important;
     margin-left: 80px;
